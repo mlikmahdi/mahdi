@@ -6,14 +6,14 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Routing\Annotation\Route;
 
-class DefaultController extends Controller
+class ExperienceController extends Controller
 {
     /**
-     * @Route("/home", name="homepage")
+     * @Route("/experience", name="experience")
      */
     public function indexAction(Request $request)
     {
         // replace this example code with whatever you need
-        return $this->render('home/home.html.twig');
+        return $this->render('default/experience.html.twig');
     }
 }
